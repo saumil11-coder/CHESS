@@ -3,7 +3,7 @@ package chess1;
 import java.awt.Font;
 
 public class Rating {
-	 static int pawnBoard[][]={//attribute to http://chessprogramming.wikispaces.com/Simplified+evaluation+function
+	 static int pawnBoard[][]=
 		        { 0,  0,  0,  0,  0,  0,  0,  0},
 		        {50, 50, 50, 50, 50, 50, 50, 50},
 		        {10, 10, 20, 30, 30, 20, 10, 10},
